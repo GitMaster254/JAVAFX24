@@ -64,12 +64,11 @@ public class addStu extends Application {
 
         TextField YearOfStdField = new TextField();
         GridPane.setConstraints(YearOfStdField, 1, 2);
-
-
         
 
         Button addButton = new Button("Add");
-        
+        addButton.setId("#addButton");
+
         GridPane.setConstraints(addButton, 0, 3);
         addButton.setOnAction(e -> {
             // Get the entered values
@@ -89,7 +88,9 @@ public class addStu extends Application {
 
         // Set up the scene and show the stage
         Scene scene = new Scene(grid, 300, 200);
-        scene.getStylesheets().add(getClass().getResource("resources/styles.css").toExternalForm());
+
+        //scene.getStylesheets().add(getClass().getResource("resources/styles.css").toExternalForm());
+        scene.getStylesheets().add("file:resources/styles.css");
         primaryStage.setScene(scene);
         primaryStage.show();
         primaryStage.setResizable(true);
