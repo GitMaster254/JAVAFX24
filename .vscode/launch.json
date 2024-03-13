@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "addStu",
+            "request": "launch",
+            "mainClass": "com.fx.addStu",
+            "projectName": "javafxintro"
+        },
+        {
+            "type": "java",
+            "name": "LoginScreen",
+            "request": "launch",
+            "mainClass": "com.fx.LoginScreen",
+            "projectName": "javafxintro"
+        },
+        {
+            "type": "java",
+            "name": "Java",
+            "request": "launch",
+            "mainClass": "com.fx.Main",
+            "projectName": "javafxintro"
+        }
+    ]
+}
